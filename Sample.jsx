@@ -39,7 +39,7 @@ export default class Sample extends Component {
               file={file}
               onLoadSuccess={this.onDocumentLoadSuccess}
               options={options}
-              loading="loading"
+              loading="loading..."
             >
               {
                 Array.from(
